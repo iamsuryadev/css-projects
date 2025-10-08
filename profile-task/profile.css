@@ -16,10 +16,10 @@ body{
 .profile-container{
     height: 450px;
     width: 100%;
-    max-width: 400px;
-    min-width: 400px;
+    max-width: 370px;
+    min-width: 370px;
     background-color: #ffff;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .profile{
     position: relative;
@@ -34,10 +34,10 @@ p{
     position: relative;
 }
 .img-div>img{
-    border-radius: 10px;
+    border-radius: 20px;
     position: absolute;
     top: -70px;
-    width: 60%;
+    width: 65%;
     height: 290px;
 }
 .profile-name{
@@ -61,21 +61,20 @@ p{
     width: 100%;
 }
 .profile-buttons>button{
-    padding: 10px 30px;
-    border: none;
-    border-radius: 5px;
+    padding: 15px 40px;
     cursor: pointer;
     font-size: 1rem;
 }
 .profile-buttons>.follow-btn{
     background-color: #ff00d4;
+    border: none;
     color: white;
+    border-radius: 5px;
 }  
-.profile-buttons>.message-btn{
+.profile-buttons>.msg-btn{
     background-color: white;
-    background-color: transparent;
-
-    border: 1px solid grey;
+    border-radius: 5px;
+    border: 1px solid rgb(157, 157, 157);
 }
 
 
